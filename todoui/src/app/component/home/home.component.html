@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row  ">
+        <div class="col  bg-primary text-white colsize">
+            <div class="content">
+                <h2>Todo Manegment</h2>
+                <p>A to-do list, often abbreviated as "todo," is a list of tasks or activities that need to be
+                    completed, typically organized in a systematic or prioritized manner. The purpose of a to-do list is
+                    to help individuals or teams keep track of what needs to be done, manage their workload, and ensure
+                    that important tasks are not overlooked.</p>
+            </div>
+        </div>
+        <div class="col colsize">
+            <div class="form">
+                @if(signUp){
+                    <form #SignUp="ngForm" (ngSubmit)="SignIn(SignUp.value)">
+                        <h3 class="label">SignUp</h3>
+                        <p class="label">mail</p>
+                        <input type="text" class="form-control" placeholder="mail" aria-describedby="basic-addon1" name="mail" ngModel>
+                        <p class="label">Password</p>
+                        <input type="password" class="form-control" placeholder="password" aria-describedby="basic-addon1" name="password" ngModel>
+                        <hr>
+                        <div class="formfooter"><input class="btn btn-primary" type="submit" value="Submit">
+                            <p>Alredy have account ?<a (click)="openlogin()"> Login</a></p></div>
+                    </form>
+
+                }@else {
+                <form #logIn="ngForm" (ngSubmit)="SignIn(logIn.value)">
+                    <h3 class="label">SignIn</h3>
+                    <p class="label">mail</p>
+                    <input type="text" class="form-control" placeholder="mail" 
+                        aria-describedby="basic-addon1" name="mail" ngModel>
+                        <p class="label">Password</p>
+                    <input type="password" class="form-control" placeholder="password" 
+                        aria-describedby="basic-addon1" name="password" ngModel>
+                    <hr>
+                    <div class="formfooter"><input class="btn btn-primary" type="submit" value="Submit">
+                        <p>don't have account ?<a (click)="opensignup()"> signup</a></p></div>
+                </form>
+                }
+
+            </div>
+        </div>
+
+    </div>
