@@ -1,0 +1,16 @@
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\bin\Release\net6.0\TodoAPIDAL.deps.json
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\bin\Release\net6.0\TodoAPIDAL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\bin\Release\net6.0\TodoAPIDAL.pdb
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\bin\Release\net6.0\TodoAPIMODEL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\bin\Release\net6.0\TodoAPIMODEL.pdb
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.csproj.AssemblyReference.cache
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.AssemblyInfoInputs.cache
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.AssemblyInfo.cs
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.csproj.CoreCompileInputs.cache
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.sourcelink.json
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.csproj.Up2Date
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\refint\TodoAPIDAL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\TodoAPIDAL.pdb
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIDAL\obj\Release\net6.0\ref\TodoAPIDAL.dll

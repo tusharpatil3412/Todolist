@@ -1,0 +1,12 @@
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\bin\Release\net6.0\TodoAPIMODEL.deps.json
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\bin\Release\net6.0\TodoAPIMODEL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\bin\Release\net6.0\TodoAPIMODEL.pdb
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.AssemblyInfoInputs.cache
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.AssemblyInfo.cs
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.csproj.CoreCompileInputs.cache
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.sourcelink.json
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\refint\TodoAPIMODEL.dll
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\TodoAPIMODEL.pdb
+C:\angular\todolist\todo_api\TodoAPI\TodoAPIMODEL\obj\Release\net6.0\ref\TodoAPIMODEL.dll

@@ -97,9 +97,13 @@ export class TodoComponent implements OnInit {
     deleteTodo(){
      
       
-    this.id && this.todoser.delete(this.id).subscribe((res)=>{
+    this.data.id && this.todoser.delete(this.data.id).subscribe((res)=>{
       
      this.todoload();
     })
+    }
+    model(data:Todo)
+    {
+      this.data=data;
     }
 }

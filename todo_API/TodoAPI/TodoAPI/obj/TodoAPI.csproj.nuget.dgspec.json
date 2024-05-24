@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\TodoAPI.csproj": {}
+    "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPI\\TodoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj": {
+    "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj",
+        "projectUniqueName": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj",
         "projectName": "TodoAPIBAL",
-        "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj",
-        "packagesPath": "C:\\Users\\tushar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\obj\\",
+        "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj",
+        "packagesPath": "C:\\Users\\iaspa\\.nuget\\packages\\",
+        "outputPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIBAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tushar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iaspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj": {
-                "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj"
+              "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj": {
+                "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj"
               },
-              "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
-                "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj"
+              "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
+                "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj"
               }
             }
           }
@@ -45,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj": {
+    "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj",
+        "projectUniqueName": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj",
         "projectName": "TodoAPIDAL",
-        "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj",
-        "packagesPath": "C:\\Users\\tushar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\obj\\",
+        "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj",
+        "packagesPath": "C:\\Users\\iaspa\\.nuget\\packages\\",
+        "outputPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tushar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iaspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
-                "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj"
+              "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
+                "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj"
               }
             }
           }
@@ -108,6 +105,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -139,25 +141,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
+    "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj",
+        "projectUniqueName": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj",
         "projectName": "TodoAPIMODEL",
-        "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj",
-        "packagesPath": "C:\\Users\\tushar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\obj\\",
+        "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj",
+        "packagesPath": "C:\\Users\\iaspa\\.nuget\\packages\\",
+        "outputPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tushar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iaspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,6 +175,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -198,25 +201,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\TodoAPI.csproj": {
+    "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPI\\TodoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\TodoAPI.csproj",
+        "projectUniqueName": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPI\\TodoAPI.csproj",
         "projectName": "TodoAPI",
-        "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\TodoAPI.csproj",
-        "packagesPath": "C:\\Users\\tushar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\obj\\",
+        "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPI\\TodoAPI.csproj",
+        "packagesPath": "C:\\Users\\iaspa\\.nuget\\packages\\",
+        "outputPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tushar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\iaspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -230,14 +229,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj": {
-                "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj"
+              "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj": {
+                "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIBAL\\TodoAPIBAL.csproj"
               },
-              "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj": {
-                "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj"
+              "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj": {
+                "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIDAL\\TodoAPIDAL.csproj"
               },
-              "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
-                "projectPath": "C:\\Users\\tushar\\OneDrive\\Desktop\\todo\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj"
+              "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj": {
+                "projectPath": "C:\\angular\\todolist\\todo_api\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj"
               }
             }
           }
@@ -246,6 +245,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -276,7 +280,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

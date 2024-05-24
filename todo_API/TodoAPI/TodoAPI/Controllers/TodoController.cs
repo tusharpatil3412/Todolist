@@ -28,12 +28,20 @@ namespace TodoAPI.Controllers
         [HttpGet("{userid}")]
         public IActionResult GetByUserId(int userid)
         {
-            var result = _todoService.GetTodoById(userid);
-            if (result != null) 
+            try
             {
-                return Ok(result);
+                var result = _todoService.GetTodoById(userid);
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                return BadRequest();
             }
-            return BadRequest();
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+            
             
         }
         [HttpGet("{id}/{status}")]

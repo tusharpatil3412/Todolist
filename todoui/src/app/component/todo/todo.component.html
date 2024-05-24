@@ -106,7 +106,7 @@
                             aria-controls="offcanvasRight"></i>
                     </div>
                     <div class="">
-                        <i class="fa-solid fa-trash deleteicon" data-bs-toggle="modal"
+                        <i class="fa-solid fa-trash deleteicon" (click)="model(item)" data-bs-toggle="modal"
                             data-bs-target="#exampleModal"></i>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -121,7 +121,7 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        you want to delete {{data.title}}
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
