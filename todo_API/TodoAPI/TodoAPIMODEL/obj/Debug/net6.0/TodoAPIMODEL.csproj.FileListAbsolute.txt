@@ -1,0 +1,11 @@
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\bin\Debug\net6.0\TodoAPIMODEL.deps.json
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\bin\Debug\net6.0\TodoAPIMODEL.dll
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\bin\Debug\net6.0\TodoAPIMODEL.pdb
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\TodoAPIMODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\TodoAPIMODEL.AssemblyInfoInputs.cache
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\TodoAPIMODEL.AssemblyInfo.cs
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\TodoAPIMODEL.csproj.CoreCompileInputs.cache
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\TodoAPIMODEL.dll
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\refint\TodoAPIMODEL.dll
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\TodoAPIMODEL.pdb
+C:\Users\tushar\OneDrive\Desktop\todo\Todolist\todo_API\TodoAPI\TodoAPIMODEL\obj\Debug\net6.0\ref\TodoAPIMODEL.dll

@@ -12,8 +12,10 @@
         <div class="col colsize">
             <div class="form">
                 @if(signUp){
-                    <form #SignUp="ngForm" (ngSubmit)="SignIn(SignUp.value)">
+                    <form #Signup="ngForm" (ngSubmit)="SignUp(Signup.value)">
                         <h3 class="label">SignUp</h3>
+                        <p class="label">Name</p>
+                        <input type="text" class="form-control" placeholder="name" aria-describedby="basic-addon1" name="name" ngModel>
                         <p class="label">mail</p>
                         <input type="text" class="form-control" placeholder="mail" aria-describedby="basic-addon1" name="mail" ngModel>
                         <p class="label">Password</p>

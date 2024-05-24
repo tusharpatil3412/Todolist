@@ -1,88 +1,141 @@
 <div class="parent-container ">
-<div class="container ">
-    <div class="row custom-gx-3 align-items-center">
-        <div class="col">
-            <h5 class="nav-text-margin my-3">Todo Management</h5>
-        </div>
-        <div class="col d-flex justify-content-center align-items-center  ">
-            <h6 class="my-3">Todo</h6>
-            <h6 class="my-3" >Logout</h6>
-        </div>
-    </div>
-</div>
-<div class="body-container">
-<div class="container text-center ">
-    <div class="row custom-gx-3 align-items-center">
-        <div class="col">
-            <h5 class="nav-text-margin my-3">Manage Todo </h5>
-        </div>
-        <div class="col d-flex justify-content-center align-items-center  ">
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+ add todo</button>
+    <div class="container ">
+        <div class="row custom-gx-3 align-items-center">
+            <div class="col">
+                <h5 class="nav-text-margin my-3">Todo Management</h5>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center  ">
+                <h6 class="my-3">{{username}}</h6>
 
-            <div class="offcanvas offcanvas-end offcanvas-label" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-              <div class="offcanvas-header">
-                <h5 id="offcanvasRightLabel">Todo Details</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <div>
-                    <form #Todo="ngForm" (ngSubmit)="NewTodo(Todo.value)">
-                       
-                        <p class="label">title</p>
-                        <input type="text" class="form-control" placeholder="title" aria-describedby="basic-addon1" name="title" ngModel>
-                        
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Description" ngModel></textarea>
-                          </div> 
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Status</label>
-                            <select class="form-select" aria-label="Default select example" name="status" ngModel>
-                                <option selected>Open </option>
-                                <option value="1">Progress</option>
-                                <option value="2">Testing</option>
-                                <option value="3">Done</option>
-                              </select>
-                          </div>
-                        <hr>
-                       
-                        <button type="button submit" class="btn btn-primary" data-bs-dismiss="offcanvas" value="Submit">Sibmit</button>
-                            
-                    </form>
-
-                </div>
-              </div>
+                <h6 class="my-3" (click)="LogOut()">Logout</h6>
             </div>
         </div>
     </div>
+    <div class="body-container">
+        <div class="container text-center ">
+            <div class="row custom-gx-3 align-items-center">
+                <div class="col">
+                    <h5 class="nav-text-margin my-3">Manage Todo </h5>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center  ">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" (click)="clearTodo()">+ add
+                        todo</button>
 
-    <div class="row  align-items-center">
-        <div class="col">
-            <button type="button" class="btn btn-outline-primary mx-1">All</button>
-            <button type="button" class="btn btn-outline-primary mx-1">Open</button>
-            <button type="button" class="btn btn-outline-primary mx-1">Progress</button>
-            <button type="button" class="btn btn-outline-primary mx-1">Testing</button>
-            <button type="button" class="btn btn-outline-primary">Done</button>
-        </div> <div class="col">
-           
+                    <div class="offcanvas offcanvas-end offcanvas-label" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Todo Details</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                <form #TodoForm="ngForm" (ngSubmit)="NewTodo(TodoForm.value)">
+
+                                    <p class="label">Title</p>
+                                    <input type="text" class="form-control" placeholder="title"
+                                        aria-describedby="basic-addon1" name="title" [(ngModel)]="data.title" required>
+
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                            name="description" [(ngModel)]="data.description" required></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Status</label>
+                                        <select class="form-select" aria-label="Default select example" name="status"
+                                            [(ngModel)]="data.status" required>
+                                            <option value="Open">Open </option>
+                                            <option value="Progress">Progress</option>
+                                            <option value="Testing">Testing</option>
+                                            <option value="Done">Done</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    @if (!edit) {
+                                    <button type="button submit" class="btn btn-primary" data-bs-dismiss="offcanvas"
+                                        value="Submit">Sibmit</button>
+                                    }@else {
+                                    <button type="button submit" class="btn btn-primary" data-bs-dismiss="offcanvas"
+                                        value="Submit">Edit</button>
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row  align-items-center">
+                <div class="col">
+                    <button type="button" class="btn btn-outline-primary mx-1" (click)="filter('All')">All</button>
+                    <button type="button" class="btn btn-outline-primary mx-1" (click)="filter('Open')">Open</button>
+                    <button type="button" class="btn btn-outline-primary mx-1"
+                        (click)="filter('Progress')">Progress</button>
+                    <button type="button" class="btn btn-outline-primary mx-1"
+                        (click)="filter('Testing')">Testing</button>
+                    <button type="button" class="btn btn-outline-primary" (click)="filter('Done')">Done</button>
+                </div>
+                <div class="col">
+
+                </div>
+
+            </div>
+
         </div>
-       
+        <div class="todo-container align-items-center mx-auto">
+            @for (item of Todos; track $index) {
+            <div class="d-flex todos   my-2 "
+                [style.border-left]="item.status=='Done' ? ' 5px solid  #198754'  : (item.status=='Testing' ? ' 5px solid  #0dcaf0'  : (item.status=='Open' ? ' 5px solid  #ff0000'  :' 5px solid #0d6efd'))">
+                <div class="my-1">
+                    <h6>{{item.title}}</h6>
+                    <p>{{item.description}}</p>
+                </div>
+                <div class="ms-auto align-items-center">
+                    <div class="status my-2"
+                        [style.border]="item.status=='Done' ? ' 3px solid  #198754'  : (item.status=='Testing' ? ' 3px solid  #0dcaf0'  : (item.status=='Open' ? ' 3px solid  #ff0000'  :' 3px solid #0d6efd'))">
+                        {{item.status}}</div>
+
+                </div>
+                <div class="d-flex align-items-center iconcontainer">
+                    <div class="">
+                        <i class="fa-regular fa-pen-to-square editicon" (click)="getTodo(item.id)"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight"></i>
+                    </div>
+                    <div class="">
+                        <i class="fa-solid fa-trash deleteicon" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"></i>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel"><i
+                                                class="fa-solid fa-circle-exclamation"
+                                                style="color:rgba(246, 0, 0, 0.824)"></i> Delete Todo</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" (click)="deleteTodo() "
+                                            data-bs-dismiss="modal">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
     </div>
-  
-</div>
-<div class="todo-container align-items-center mx-auto">
-    <div class="d-flex todos my-1 ">
-        <div class="my-1" >
-        <h6 >Todo Management</h6>
-        <p>skjhgkjhkjsfhgkjhkjdsfksjhdfgkjhdiufgkdefjhgkhfdiugy</p>
-    </div><div class="ms-auto align-items-center"><div class="status my-2">status</div></div>
-    </div>
-    <div class="d-flex todos my-1">
-        <div class="my-1" >
-        <h6 >Todo Management</h6>
-        <p>skjhgkjhkjsfhgkjhkjdsfksjhdfgkjhdiufgkdefjhgkhfdiugy</p>
-    </div><div class="ms-auto align-items-center"><div class="status my-2">status</div></div>
-    </div>
-</div>
-</div>
 </div>

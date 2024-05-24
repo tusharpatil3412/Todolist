@@ -22,13 +22,29 @@ p {
 }
 .todo-container{
     max-width: 70vw;
-    min-height: 70px;
+    min-height: 70vh;
+    max-height: 65vh;
     background:#ffffff;
     margin-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    overflow: auto;
     flex-direction: column;
+}
+.todo-container::-webkit-scrollbar {
+    width: 7px; /* Width of the scrollbar */
+}
+
+.todo-container::-webkit-scrollbar-track {
+    background: #fffefe; /* Color of the scrollbar track */
+}
+
+.todo-container::-webkit-scrollbar-thumb {
+    background: #6d6d6db6; /* Color of the draggable part */
+    border-radius: 7px; /* Rounded corners */
+}
+
+.todo-container::-webkit-scrollbar-thumb:hover {
+    background: #6f6e6e51; /* Color when hovered */
 }
 .todos{
     max-width: 65vw;
@@ -38,16 +54,29 @@ p {
     text-align: start;
     padding-left: 20px;
     border-left: 5px solid #ff0000;
-    
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa8a;
 
 }
 .status{
     height: 33px;
-    width: 57px;
+    width: 87px;
     text-align: center;
     border:3px solid #ff0000;
     border-radius: 32px;
-    
+   
+}
+.iconcontainer{
+    width: 10%;
+    justify-content: space-evenly;
+}
+.deleteicon{
+    color: #e00000d6;
+    font-size: 18px;
+}
+.editicon{
+    color: #0642e6d6;
+    font-size: 22px;
 }
       
   
