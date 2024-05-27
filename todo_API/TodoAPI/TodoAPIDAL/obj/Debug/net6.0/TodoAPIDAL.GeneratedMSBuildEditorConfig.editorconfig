@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TodoAPIDAL
-build_property.ProjectDir = C:\Users\tushar\Downloads\todo_API\TodoAPI\TodoAPIDAL\
+build_property.ProjectDir = C:\Users\iaspa\OneDrive\Desktop\Todolist\todo_API\TodoAPI\TodoAPIDAL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

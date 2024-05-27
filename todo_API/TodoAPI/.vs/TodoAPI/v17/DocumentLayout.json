@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapi\\controllers\\userdetailslcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|solutionrelative:todoapi\\controllers\\userdetailslcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|solutionrelative:todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapidal\\todorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|solutionrelative:todoapidal\\todorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapibal\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|solutionrelative:todoapibal\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapibal\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|solutionrelative:todoapibal\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapidal\\itodorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|solutionrelative:todoapidal\\itodorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapidal\\userdetailrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|solutionrelative:todoapidal\\userdetailrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369C6038-132F-4C60-88E6-8B52E999D5E9}|TodoAPIMODEL\\TodoAPIMODEL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapimodel\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369C6038-132F-4C60-88E6-8B52E999D5E9}|TodoAPIMODEL\\TodoAPIMODEL.csproj|solutionrelative:todoapimodel\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapi\\servicesextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|solutionrelative:todoapi\\servicesextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369C6038-132F-4C60-88E6-8B52E999D5E9}|TodoAPIMODEL\\TodoAPIMODEL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapimodel\\todoapimodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{369C6038-132F-4C60-88E6-8B52E999D5E9}|TodoAPIMODEL\\TodoAPIMODEL.csproj|solutionrelative:todoapimodel\\todoapimodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651020E7-1957-4529-AC92-4365B0C31EFF}|TodoAPI\\TodoAPI.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369C6038-132F-4C60-88E6-8B52E999D5E9}|TodoAPIMODEL\\TodoAPIMODEL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapimodel\\usercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369C6038-132F-4C60-88E6-8B52E999D5E9}|TodoAPIMODEL\\TodoAPIMODEL.csproj|solutionrelative:todoapimodel\\usercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapibal\\userdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|solutionrelative:todoapibal\\userdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapibal\\iuserdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFE37A2-BC22-4E78-A887-19FD58EAC284}|TodoAPIBAL\\TodoAPIBAL.csproj|solutionrelative:todoapibal\\iuserdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|c:\\users\\iaspa\\onedrive\\desktop\\todolist\\todo_api\\todoapi\\todoapidal\\iuserdetailrrpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436B8AD-BA2D-46FF-82C0-0676FCFDB2CC}|TodoAPIDAL\\TodoAPIDAL.csproj|solutionrelative:todoapidal\\iuserdetailrrpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "TodoAPI\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "TodoAPI\\Controllers\\TodoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:34.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TodoAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\appsettings.json",
+              "RelativeToolTip": "TodoAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T12:14:35.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "userdetailRepo.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\userdetailRepo.cs",
+              "RelativeDocumentMoniker": "TodoAPIDAL\\userdetailRepo.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\userdetailRepo.cs",
+              "RelativeToolTip": "TodoAPIDAL\\userdetailRepo.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwCMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITodoService.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\ITodoService.cs",
+              "RelativeDocumentMoniker": "TodoAPIBAL\\ITodoService.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\ITodoService.cs",
+              "RelativeToolTip": "TodoAPIBAL\\ITodoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServicesExtention.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\ServicesExtention.cs",
+              "RelativeDocumentMoniker": "TodoAPI\\ServicesExtention.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\ServicesExtention.cs",
+              "RelativeToolTip": "TodoAPI\\ServicesExtention.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "userdetailslController.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\Controllers\\userdetailslController.cs",
+              "RelativeDocumentMoniker": "TodoAPI\\Controllers\\userdetailslController.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\Controllers\\userdetailslController.cs",
+              "RelativeToolTip": "TodoAPI\\Controllers\\userdetailslController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoRepo.cs",
+              "RelativeDocumentMoniker": "TodoAPIDAL\\TodoRepo.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\TodoRepo.cs",
+              "RelativeToolTip": "TodoAPIDAL\\TodoRepo.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoService.cs",
+              "RelativeDocumentMoniker": "TodoAPIBAL\\TodoService.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\TodoService.cs",
+              "RelativeToolTip": "TodoAPIBAL\\TodoService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAewBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITodoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\ITodoRepo.cs",
+              "RelativeDocumentMoniker": "TodoAPIDAL\\ITodoRepo.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\ITodoRepo.cs",
+              "RelativeToolTip": "TodoAPIDAL\\ITodoRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TodoAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPI\\Program.cs",
+              "RelativeToolTip": "TodoAPI\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAhwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\Todo.cs",
+              "RelativeDocumentMoniker": "TodoAPIMODEL\\Todo.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\Todo.cs",
+              "RelativeToolTip": "TodoAPIMODEL\\Todo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoAPIMODEL.csproj",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj",
+              "RelativeDocumentMoniker": "TodoAPIMODEL\\TodoAPIMODEL.csproj",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\TodoAPIMODEL.csproj",
+              "RelativeToolTip": "TodoAPIMODEL\\TodoAPIMODEL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-24T12:14:35.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "usercs.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\usercs.cs",
+              "RelativeDocumentMoniker": "TodoAPIMODEL\\usercs.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIMODEL\\usercs.cs",
+              "RelativeToolTip": "TodoAPIMODEL\\usercs.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserdetailService.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\UserdetailService.cs",
+              "RelativeDocumentMoniker": "TodoAPIBAL\\UserdetailService.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\UserdetailService.cs",
+              "RelativeToolTip": "TodoAPIBAL\\UserdetailService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IuserdetailRrpo.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\IuserdetailRrpo.cs",
+              "RelativeDocumentMoniker": "TodoAPIDAL\\IuserdetailRrpo.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIDAL\\IuserdetailRrpo.cs",
+              "RelativeToolTip": "TodoAPIDAL\\IuserdetailRrpo.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwAsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Iuserdetailservice.cs",
+              "DocumentMoniker": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\Iuserdetailservice.cs",
+              "RelativeDocumentMoniker": "TodoAPIBAL\\Iuserdetailservice.cs",
+              "ToolTip": "C:\\Users\\iaspa\\OneDrive\\Desktop\\Todolist\\todo_API\\TodoAPI\\TodoAPIBAL\\Iuserdetailservice.cs",
+              "RelativeToolTip": "TodoAPIBAL\\Iuserdetailservice.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:14:35.554Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

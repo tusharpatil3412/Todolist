@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoAPIBAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20abeb3b916ee36d8fea1841d822903c114d2ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoAPIBAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoAPIBAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
